@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>operations</h1>
+        <!--
+        <h1>if condition</h1>
+        {% if a > 10 %}
+        <h1>I am inside if block</h1>
+        <h1>{{a}}</h1>
+
+        {% endif %}
+
+    <h1>if-else blocks</h1>
+    {% if a > b %}
+        <h1>if block</h1>
+        <h1>{{a}} is max</h1>
+    {% else %}
+        <h1>inside else block</h1>
+        <h1>{{b}} is max</h1>
+    {% endif %}
+
+<h1>if-elif-else block</h1>
+
+{% if a > b and a > c %}
+    <h1>if block</h1>
+    <h1>a is max</h1>
+{% elif b > c %}
+    <h1>elif block</h1>
+    <h1>b is max</h1>
+{% else %}
+    <h1>else block</h1>
+    <h1>c is max</h1>
+{% endif %}
+-->
+
+<h1>nested if block</h1>
+
+{% if a > b %}
+    {% if a > c %}
+            <h1>a is max </h1>
+            <h1>if blocks inner if block</h1>
+    {% else %}
+            <h1>c is max </h1>
+            <h1>if blocks inner else</h1>
+    {% endif %}
+{% else %}
+    {% if b > c %}
+        <h1>b is max </h1>
+        <h1>else blocks inner if</h1>
+    {% else %}
+        <h1>c is max
+        </h1>
+        <h1>else blocks inner else</h1>
+    {% endif %}
+{% endif %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </center>
+</body>
+</html>
+
+
